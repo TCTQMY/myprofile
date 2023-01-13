@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html,body{
+  margin:0;
+  height:100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  min-height: 100%;;
+  text-align:center;
+  background: linear-gradient(0deg, rgba(34,195,104,1) 0%, rgba(45,77,253,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headline{
+  text-align:center;
+ 
+}
+.headline  h1{
+    font-size:35px;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+  }
+
+.social-buttons{
+  background: rgba(256,256,256,0.5);
+  width: 300px;
+  height: 400px;
+  padding:30px 30px 30px 30px;
+  padding-bottom: 5px;
+  border-radius:10px;
+  margin:20px 10px;
+  box-shadow: 0px 0px 32px -7px #00199f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+  
+/* Helper class to divide the icons */
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.box-icon{
+  display: flex;
+}
+.social-icon {
+  margin-bottom: 15px;
+   box-sizing: border-box;
+  -moz-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  border-radius: 138px;
+  border: 5px solid;
+  width: 50px;
+  height: 50px;
+  line-height: 1px;
+  transition: all 0.5s;
+  margin: 10px;
+}
+.social-icon:hover {
+    transform: rotate(360deg)scale(1.3);
+  }
+  /* Facebook Button Styling */
+ .facebook {
+    font-size: 22px;
+    padding-top: 9px;
+    border-color: #3b5998;
+    background-color: #3b5998;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+  }
+  .facebook:hover {
+    background-color: #ffffff;
+    color: #3b5998;
+  }
+  /*zalo button styling*/
+  .zalo{
+    font-size: 20px;
+    padding-top: 9px;
+    border-color: #4060ff;
+    background-color: #4060ff;
+    color: #fff;
+  }
+  .zalo:hover{
+    background-color: #ffffff;
+    color: #4060ff;
+  }
+  /*instagram button styling*/
+  .instagram{
+    border-color: #3c0bff;
+    background-color: #4c00ff;
+    color: #ffffff;
+    font-size: 22px;
+    padding-top: 9px;
+  }
+  .instagram:hover{
+    background-color: #ffffff;
+    color: #0324e0;
+  }
+  /*gmail button styling*/
+  .gmail{
+    font-size: 22px;
+    padding-top: 9px;
+    border-color: red;
+    background-color: red;
+    color: white;
+  }
+  .gmail:hover{
+    background-color: white;
+    color: red   ;
+    border-color: red;
+  }
+  .avt{
+    width: 234px;
+    height: 234px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+          <h1>MFap</h1>
+        </div>
+        <div class="social-buttons"> 
+            <div class="avt">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvxeDVjr6WEfO7u-M-2wVCiSnCoMAX2FTog&usqp=CAU" alt="">
+            </div>
+                <div class="box-icon">
+                  <!-- facebook  Button -->
+                <a href="https://www.facebook.com/fapx3tct" target="_blank" class="social-margin">
+                  <div class="social-icon facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>                  
+                  </div> 
+                </a>
+                <!--  zalo button  -->
+                <a href="https://zalo.me/0386824605" target="blank" class="social-margin">
+                            <div class="social-icon zalo">
+                                <i class="fa fa-zalo" aria-hidden="true">Zalo</i>
+                            </div>
+                </a>
+                <!--  instagram button  -->
+                <a href="https://www.instagram.com/cthanhtr/" target="blank" class="social-margin">                     
+                            <div class="social-icon instagram">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                </a>
+                <!--  gmail button  -->
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="blank" class="social-margin">
+                            <div class="social-icon gmail">
+                                <i class="fa fa-gmail" aria-hidden="true">G</i>
+                            </div>
+                </a>
+                </div>
+        </div>
+        </div>
+</body>
+</html>
